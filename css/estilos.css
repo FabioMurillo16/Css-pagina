@@ -44,8 +44,9 @@ header {
 
 .nav_bar a:hover {
     background-color: #2848C6;
+    color: #6D7B93;
     border-radius: 5px;
-    transition: 1s;
+    transition: .5s;
 }
 
 /* -------------------------------------------------------------------------------------------------------seccion1 */
