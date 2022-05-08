@@ -592,6 +592,28 @@ footer {
 
 /* ------------------------------------------------------CSS RESPONSIVE------------------------------------------------------------------*/
 
-@media screen and (max-with:1250px) {
+@media screen and (max-width:1250px) {
+
+    /* -------------------------------------------------------------------------------------------------------seccion1 */
+    .section_1 {
+    width: 100%;
+    height: 120vh;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    /* flex-wrap: wrap; */
+    }
+
+    .container_sec1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10%;
+}
+    /* -------------------------------------------------------------------------------------------------------seccion1 */
 
 }
