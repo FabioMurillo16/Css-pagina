@@ -358,92 +358,6 @@ header {
 
 /* -------------------------------------------------------------------------------------------------------seccion4 */
 
-.section_4 {
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-}
-
-.container1_sec4 {
-    grid-column: 1/1;
-    grid-row: 1/2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.four_cont1_item1 {
-    width: 60%;
-    height: auto;
-}
-
-.four_cont1_item1 h1 {
-    font-family: var(--Titulos);
-    color: var(--colorTitulos);
-    font-size: 45px;
-}
-
-.four_cont1_item1 p {
-    font-family: var(--parafos);
-    color: var(--colorparrafos);
-    font-size: 20px;
-}
-
-.container2_sec4 {
-    grid-column: 1/2;
-    grid-row: 2/6;
-    /* background-color: rgb(50, 207, 168) */
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 50px;
-}
-
-.four_cont2_item1 {
-    /* background-color: #2A70DE; */
-    width: 80%;
-    height: auto;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.box1 {
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
-    border: solid #FAFAFF 6px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.box_items1 {
-    width: auto;
-    height: auto;
-    /* background-color: #8f89b4; */
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.icon_b i {
-    font-size: 36px;
-    background-color: #F1F5FF;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 0 10px 0 0;
-}
-
-.box_items2 {
-    width: auto;
-    /* height: 50px;
-    background-color: #3d22da; */
-}
-
 .button-38 {
     width: 150px;
     height: 50px;
@@ -481,35 +395,6 @@ header {
     box-shadow: none;
   }
 
-  .box_paragraph h5 {
-      font-family: var(--Titulos);
-      color: var(--colorTitulos);
-  }
-
-  .box_paragraph p {
-    font-family: var(--colorparrafos);
-    color: var(--colorparrafos);
-}
-  
-.container3_sec4 {
-    grid-column: 2/3;
-    grid-row: 2/5;
-    display: flex;
-    justify-content:flex-end;
-    align-items: center;
-    /* background-color: rgb(238, 83, 44) */
-}
-
-.four_cont3_item1 {
-    width: 60%;
-    height: 100%;
-}
-
-.four_cont3_item1 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 /* -------------------------------------------------------------------------------------------------------footer */
 
