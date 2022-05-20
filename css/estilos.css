@@ -339,7 +339,7 @@ header {
 .three_cont2_item3 {
     /* background-color: #2848C6; */
     width: 60%;
-    height: 400px;
+    height: auto;
 }
 
 .three_cont2_item1 h1 {
