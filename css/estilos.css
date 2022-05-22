@@ -358,17 +358,25 @@ header {
 
 /* -------------------------------------------------------------------------------------------------------seccion4 */
 .section_4 {
+    width: 100%;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    width: 100vw;
-    height: 100vh;
 }
 
 .container1_sec4 {
     grid-column: 1/2;
     grid-row: 1/2;
     /* background-color: #1F3E72; */
+}
+
+.four_cont1_item1 {
+    width: auto;
+}
+
+.four_cont1_item2 {
+    width: auto;
 }
 
 .container2_sec4 {
