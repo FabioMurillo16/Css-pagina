@@ -368,6 +368,7 @@ header {
 .container1_sec4 {
     grid-column: 1/2;
     grid-row: 1/2;
+    padding-left: 15%;
     /* background-color: #1F3E72; */
 }
 
@@ -375,8 +376,20 @@ header {
     width: auto;
 }
 
+.four_cont1_item1 h1{
+    font-family: var(--Titulos);
+    color: var(--colorTitulos);
+    font-size: 2.9em;
+}
+
 .four_cont1_item2 {
     width: auto;
+}
+
+.four_cont1_item2 p{
+    font-family: var(--parafos);
+    color: var(--colorparrafos);
+    font-size: 1.3em;
 }
 
 .container2_sec4 {
