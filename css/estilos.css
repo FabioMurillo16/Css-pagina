@@ -391,6 +391,25 @@ header {
     /* background-color: brown; */
 }
 
+.four_cont3_item1 {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background-color: #7F8CA1; */
+    margin: 0 0 5px 0;
+}
+
+.box_item1 {
+    width: 180px;
+    height: 180px;
+    margin: 0 0 10px 0;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
 .button-38 {
     width: 150px;
     height: 50px;
