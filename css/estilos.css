@@ -451,16 +451,24 @@ header {
     background-color: #F1F5FF;
 }
 
+.icon2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
 .icon2 h5{
     color:var(--colorTitulos);
+    font-size: 1rem;
 }
 
 .icon2 p{
     color:var(--colorparrafos);
+    margin-bottom: 0;
 }
 
 .button-38 {
-    width: 120px;
+    width: 150px;
     height: 45px;
     background-color: #F1F5FF;
     border: 0;
