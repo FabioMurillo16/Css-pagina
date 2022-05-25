@@ -297,6 +297,7 @@ header {
 .section_3 {
     width: 100%;
     height: auto;
+    margin-bottom: 20vh;
     display: grid;
     grid-template-columns:  0.8fr 1fr;
     grid-template-rows: repeat(5, 1fr);
