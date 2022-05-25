@@ -452,11 +452,11 @@ header {
 }
 
 .icon2 h5{
-    color:var(--colorTitulos)
+    color:var(--colorTitulos);
 }
 
 .icon2 p{
-    color:var(--colorparrafos)
+    color:var(--colorparrafos);
 }
 
 .button-38 {
