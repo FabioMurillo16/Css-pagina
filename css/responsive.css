@@ -780,5 +780,39 @@
 
 @media screen and (max-width:650px) {
     /* -------------------------------------------------------------------------------------------------------seccion1*/
+    .cont1_item1 h1 {
+        font-family: var(--Titulos);
+        font-size: 2.3rem;
+        color: var(--colorTitulos);
+    }
+
+    .cont2_item1 {
+        font-family: var(--parafos);
+        font-size: 1.3rem;
+        color: var(--colorparrafos);
+    }
+
+    .squedule {
+        width: auto;
+        height: auto;
+        background-color: rgba(251, 252, 254, 98%);
+        border-radius: 10px;
+        position: relative;
+        left: 0px;
+        display: flex; 
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    #btn-center{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+    
     /* -------------------------------------------------------------------------------------------------------seccion1*/
 }
