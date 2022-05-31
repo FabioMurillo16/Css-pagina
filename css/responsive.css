@@ -163,7 +163,7 @@
     .container1_sec4 {
         grid-column: 1/2;
         grid-row: 1/2;
-        padding-left: 15%;
+        
         /* background-color: #1F3E72; */
     }
     
@@ -193,12 +193,12 @@
         /* background-color: #333841; */
     }
     
-    .container2_sec4 {
+    /* .container2_sec4 {
         display: flex;
         justify-content: flex-end;
         margin-top: 12vh;
         height: 60%;
-    }
+    } */
     
     .container3_sec4 {
         grid-column: 1/2;
@@ -614,19 +614,21 @@
         height: auto;
         display: grid;
         margin-bottom: 10vh;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr, 1fr, .5fr;
     }
-    
+
     .container1_sec4 {
         grid-column: 1/2;
         grid-row: 1/2;
-        padding-left: 15%;
-        /* background-color: #1F3E72; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
     .four_cont1_item1 {
-        width: auto;
+        width: 80%;
     }
     
     .four_cont1_item1 h1{
@@ -636,7 +638,7 @@
     }
     
     .four_cont1_item2 {
-        width: auto;
+        width: 80%;
     }
     
     .four_cont1_item2 p{
@@ -644,24 +646,23 @@
         color: var(--colorparrafos);
         font-size: 1.3em;
     }
-    
+
     .container2_sec4 {
-        grid-column: 2/3;
-        grid-row: 1/4;
-        /* background-color: #333841; */
-    }
-    
-    .container2_sec4 {
-        display: flex;
-        justify-content: flex-end;
-    }
-    
-    .container3_sec4 {
         grid-column: 1/2;
-        grid-row: 2/4;
-        /* background-color: brown; */
+        grid-row: 3/4;
     }
-    
+
+    .container2_sec4 img{
+        width: auto;
+        height: 80%;        
+    }
+
+    .container2_sec4 {
+        height: fit-content;
+        display: flex;
+        justify-content:center;
+    }
+
     .four_cont3_item1 {
         width: auto;
         height: auto;
@@ -671,6 +672,11 @@
         justify-content: space-evenly;
         /* background-color: #7F8CA1; */
         margin: 0 0 5px 0;
+    }
+
+    .container3_sec4 {
+        grid-column: 1/2;
+        grid-row: 2/3;
     }
     
     .box_item1 {
