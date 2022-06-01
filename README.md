@@ -1,3 +1,3 @@
-# Vaccination-page
+# Vaccination website
  
 https://vaccinesall.netlify.app/
