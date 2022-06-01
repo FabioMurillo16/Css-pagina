@@ -358,7 +358,7 @@
     
     .icons {
         width: 60%;
-        height: 5vh;
+        height: auto;
         display: flex;
         justify-content: space-evenly;
     }
