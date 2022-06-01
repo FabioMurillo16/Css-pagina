@@ -551,8 +551,9 @@ footer {
 
 .ACS {
     width: 400px;
-    height: 150px;
+    height: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -576,6 +577,7 @@ footer {
     height: auto;
     /* background-color: #8593cc; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
