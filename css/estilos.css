@@ -528,6 +528,7 @@ footer {
     height: auto;
     /* background-color: #8593cc; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
