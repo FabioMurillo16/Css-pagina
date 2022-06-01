@@ -627,7 +627,7 @@
         margin-bottom: 10vh;
         grid-template-columns:1fr;
         grid-template-rows: 1fr, 1fr, .5fr;
-    }
+    } 
 
     .container1_sec4 {
         grid-column: 1/2;
@@ -665,7 +665,7 @@
 
     .container2_sec4 img{
         width: auto;
-        height: 80%;        
+        height: auto;        
     }
 
     .container2_sec4 {
@@ -737,7 +737,7 @@
         margin-bottom: 0;
     }
     
-    .button-38 {
+    /* .button-38 {
         width: 150px;
         height: 45px;
         background-color: #F1F5FF;
@@ -773,7 +773,7 @@
       .button-38:focus-visible {
         box-shadow: none;
       }
-    
+     */
     
     /* -------------------------------------------------------------------------------------------------------seccion4*/
 }
@@ -833,6 +833,17 @@
     .three_cont2_item2 p {
         font-size: 1.3rem;
     }
-    /* -------------------------------------------------------------------------------------------------------seccion3*/  
+    /* -------------------------------------------------------------------------------------------------------seccion3*/
+    /* -------------------------------------------------------------------------------------------------------seccion4*/
+    .four_cont1_item1 h1{
+        font-size: 1.3em;
+    }
+
+    .container2_sec4 img{
+        width: 100%;
+        height: 80%;
+        object-fit: cover;        
+    }
+    /* -------------------------------------------------------------------------------------------------------seccion4*/ 
     
 }
